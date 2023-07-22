@@ -10,7 +10,6 @@
 
 body {
   background: #27282c;
-  overflow: hidden;
 }
 /* Navigation Bar */
 
@@ -49,6 +48,7 @@ ul{
     position: fixed;
     background-color: var(--black);
     overflow: hidden;
+    margin-bottom: 80px;
 
 }
 .menu a{
@@ -139,30 +139,17 @@ ul{
     .hamb{
         display: none;
     }
+
 }
 
-a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
+/*@media (max-width: 767px) {
+    .header {
+        margin-bottom: 200px;
+    }
+}*/
 
-a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
 
 iframe {      
@@ -184,26 +171,17 @@ h1 {
 }
 
 .container {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 120px;
-}
-
-@media (max-width: 767px) {
-    .container {
+    padding-top: 90px;
+    padding-bottom: 90px;
     width: 100%;
-    min-height: 100vh;
-    display: grid;
+    min-height: 88vh;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 120px;
-    }
 }
+
 
 .button {
   position: relative;

@@ -1,12 +1,10 @@
-var mobileMenuBtn = document.querySelector("#mobile-menu-btn");
-var mobileMenu = document.querySelector(".mobile-menu");
+var mobileMenuBtn = document.querySelector(".side-menu");
+var mobileMenu = document.querySelector(".container");
 mobileMenuBtn.addEventListener("click", () => {
   if (mobileMenu.style.display === "none") {
     mobileMenu.style.display = "flex";
-    mobileMenuBtn.innerHTML = "Close";
   } 
   else {
     mobileMenu.style.display = "none";
-    mobileMenuBtn.innerHTML = "Menu";
   }
 });
