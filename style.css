@@ -38,7 +38,7 @@ ul{
 .logo{
     display: inline-block;
     color: var(--white);
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 10px;
 }
 
@@ -191,6 +191,18 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 120px;
+}
+
+@media (max-width: 767px) {
+    .container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    }
 }
 
 .button {
