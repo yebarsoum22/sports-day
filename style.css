@@ -32,6 +32,7 @@ ul{
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 /* Logo */
 .logo{
@@ -39,6 +40,14 @@ ul{
     color: var(--white);
     font-size: 60px;
     margin-left: 10px;
+    justify-content: center;
+}
+
+.grade {
+    display: inline-block;
+    color: var(--white);
+    font-size: 16px;
+    justify-content: center;
 }
 
 /* Nav menu */
@@ -145,7 +154,15 @@ ul{
     .container {
         padding-top: 90px;
         padding-bottom: 90px;
-        
+    }
+
+    .logo {
+        padding-top: 10px;
+        font-size: 45px;
+    }
+
+    .header {
+        height: 80px;
     }
 }
 
@@ -155,7 +172,7 @@ a {
 
 iframe {      
       display: block;  /* iframes are inline by default */   
-      height: 89vh;  /* Set height to 100% of the viewport height */   
+      height: 88vh;  /* Set height to 100% of the viewport height */   
       width: 100vw;  /* Set width to 100% of the viewport width */     
       border: none; /* Remove default border */
       background: #27282c; /* Just for styling */
