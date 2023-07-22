@@ -48,7 +48,6 @@ ul{
     position: fixed;
     background-color: var(--black);
     overflow: hidden;
-    margin-bottom: 80px;
 
 }
 .menu a{
@@ -142,11 +141,13 @@ ul{
 
 }
 
-/*@media (max-width: 767px) {
-    .header {
-        margin-bottom: 200px;
+@media (max-width: 767px) {
+    .container {
+        padding-top: 90px;
+        padding-bottom: 90px;
+        
     }
-}*/
+}
 
 a {
     text-decoration: none;
@@ -171,8 +172,6 @@ h1 {
 }
 
 .container {
-    padding-top: 90px;
-    padding-bottom: 90px;
     width: 100%;
     min-height: 88vh;
     display: flex;
