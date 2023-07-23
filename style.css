@@ -64,12 +64,13 @@ ul{
     position: fixed;
     background-color: var(--black);
     overflow: hidden;
-    z-index: 2
+    z-index: 2;
 }
 .menu a{
     display: block;
     padding: 30px;
     color: var(--white);
+    z-index: 2;
 }
 .menu a:hover{
     background-color: var(--gray);
@@ -202,6 +203,7 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     gap: 120px;
+    z-index: 1;
 }
 
 
