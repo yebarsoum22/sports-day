@@ -119,9 +119,9 @@ ul{
 .side-menu:checked ~ .nav {
   max-height: 100%;
 }
-.side-menu:checked ~ .container::after {
-  position: fixed;
-  display: none;
+
+.fixed-position {
+    position: fixed;
 }
 
 .side-menu:checked ~ .hamb .hamb-line {

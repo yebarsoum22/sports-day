@@ -25,7 +25,7 @@
         <!-- Logo -->
         <a href="#" class="logo">sports day</a>
         <!-- Hamburger icon -->
-        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <input onclick="menu-open" class="side-menu" type="checkbox" id="side-menu"/>
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
         <!-- Menu -->
         <nav class="nav">
@@ -67,6 +67,18 @@
     <span></span>
     College & Up
   </a>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      if ($('.side-menu').is(':checked')) {
+        $('body').addClass("fixed-position");
+      } else {
+        $('body').removeClass("fixed-position");
+      }
+    }
+  </script>
 </div>
 </body>
 </html>
