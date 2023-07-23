@@ -322,6 +322,7 @@ h1 {
     .container {
         padding-top: 90px;
         padding-bottom: 90px;
+        position:fixed;
     }
 
     .logo {
@@ -332,8 +333,4 @@ h1 {
     .header {
         height: 80px;
     }
-    
-    /* .button {
-      padding: 5px 8px;
-      } */
 }
