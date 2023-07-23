@@ -59,9 +59,9 @@ ul{
 /* Nav menu */
 .nav{
     width: 100%;
-    height: 100%;
+    
     position: fixed;
-    background-color: blue;
+    background-color: var(—-black);
     overflow: hidden;
     z-index: 2;
 }
