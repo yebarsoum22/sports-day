@@ -118,7 +118,7 @@ ul{
 .side-menu:checked ~ .nav {
   max-height: 100%;
 }
-.side-menu:checked ~ .container {
+.side-menu:checked ~ .container body {
   overflow: hidden;
 }
 
