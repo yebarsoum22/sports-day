@@ -12,7 +12,14 @@ body {
   background: #27282c;
 }
 
-p {
+p, h1, h2, h3, strong {
+    padding: 15px;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+}
+
+a {
     color: var(--white);
 }
 
@@ -165,6 +172,10 @@ a {
     text-decoration: none;
 }
 
+.website {
+    text-decoration: underline;
+}
+
 iframe {      
       display: block;  /* iframes are inline by default */   
       height: 88vh;  /* Set height to 100% of the viewport height */   
@@ -182,6 +193,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.content {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
