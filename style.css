@@ -123,6 +123,7 @@ ul{
 .fixed-position {
     position: fixed;
     display: none;
+    overflow: hidden;
 }
 
 .side-menu:checked ~ .hamb .hamb-line {
