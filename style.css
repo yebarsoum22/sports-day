@@ -10,6 +10,7 @@
 
 body {
   background: #27282c;
+  overflow: hidden;
 }
 
 p {
