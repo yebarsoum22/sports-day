@@ -66,6 +66,7 @@ ul{
     transition: max-height .5s ease-out;
     overflow: hidden;
     z-index: 2;
+    touch-action: none;
 }
 .menu a{
     display: block;
