@@ -71,13 +71,9 @@
   <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 
   <script>
-    $(document).ready(function() {
-      if ($('#side-menu').is(':checked')) {
-        $('body').addClass("fixed-position");
-      } else {
-        $('body').removeClass("fixed-position");
-      }
-    })
+  $('#side-menu').click(function() {
+    $(".container").addClass("fixed-position");
+  });
   </script>
 </div>
 </body>
