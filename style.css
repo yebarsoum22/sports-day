@@ -122,6 +122,7 @@ ul{
 
 .fixed-position {
     position: fixed;
+    display: none;
 }
 
 .side-menu:checked ~ .hamb .hamb-line {
