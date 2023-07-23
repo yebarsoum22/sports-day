@@ -67,5 +67,16 @@
     Ping Pong
   </button>
 </div>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+  <script>
+    $('#side-menu').on('change', function() {
+    if (this.checked) {
+        $(".container").css("display", "none");
+    } else {
+      $(".container").css("display", "flex");
+    }
+});
+  </script>
 </body>
 </html>
