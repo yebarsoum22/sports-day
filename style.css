@@ -183,6 +183,7 @@ iframe {
       width: 100vw;  /* Set width to 100% of the viewport width */     
       border: none; /* Remove default border */
       background: #27282c; /* Just for styling */
+      overflow: hidden;
   }
 
 }
