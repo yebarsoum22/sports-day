@@ -30,7 +30,6 @@ p {
 ul{
     list-style: none;
     z-index: 2;
-    background-color: var(—-black);
 }
 
 .header{
