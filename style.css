@@ -178,7 +178,7 @@ ul{
   position: relative;
   padding: 8px 15px;
   font-size: 0.5rem;
-  color: black;
+  color: var(--color);
   border: 2px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   text-shadow: 0 0 15px var(--color);
