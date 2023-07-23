@@ -76,10 +76,6 @@ ul{
 .menu a:hover{
     background-color: var(--gray);
 }
-.nav{
-    
-    z-index: 2;
-}
 
 /* Menu Icon */
 .hamb{
