@@ -116,11 +116,12 @@ ul{
 } /* Hide checkbox */
 
 /* Toggle menu icon */
-.side-menu:checked ~ nav {
+.side-menu:checked ~ .nav {
   max-height: 100%;
 }
 .side-menu:checked ~ .container {
   display: hidden;
+  position: fixed;
 }
 
 .side-menu:checked ~ .hamb .hamb-line {
