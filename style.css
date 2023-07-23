@@ -336,4 +336,7 @@ h1 {
     /* .button {
       padding: 5px 8px;
       } */
+    .container {
+        display: none;
+    }
 }
