@@ -62,7 +62,7 @@ ul{
     height: 100%;
     position: fixed;
     background-color: var(--black);
-    overflow: hidden;
+
     z-index: 2;
 }
 .menu a{
