@@ -122,9 +122,11 @@ ul{
   overflow: hidden;
 }
 
-.side-menu:checked ~ nav{
-    max-height: 100%;
+.side-menu:checked ~ .container {
+    position: fixed;
+    overflow: hidden;
 }
+
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
 }
