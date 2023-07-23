@@ -121,6 +121,7 @@ ul{
 }
 .side-menu:checked ~ .container::after {
   position: fixed;
+  display: none;
 }
 
 .side-menu:checked ~ .hamb .hamb-line {
