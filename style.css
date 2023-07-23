@@ -78,6 +78,7 @@ ul{
 .nav{
     max-height: 0;
     transition: max-height .5s ease-out;
+    z-index: 2;
 }
 
 /* Menu Icon */
