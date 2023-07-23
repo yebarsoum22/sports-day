@@ -173,6 +173,10 @@ ul{
     .header {
         height: 80px;
     }
+    
+    .button {
+      padding: 4px 7.5px;
+      }
 }
 
 a {
@@ -212,7 +216,7 @@ h1 {
 
 .button {
   position: relative;
-  padding: 8px 15px;
+  padding: 16px 30px;
   font-size: 1.5rem;
   color: var(--color);
   border: 2px solid rgba(0, 0, 0, 0.5);
