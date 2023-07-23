@@ -11,6 +11,12 @@
 body {
   background: #27282c;
 }
+
+p {
+    color: var(--white);
+    margin-top: -75px;
+}
+
 /* Navigation Bar */
 
 /* Theming */
@@ -126,7 +132,7 @@ ul{
 }
 
 /* Responsiveness */
-@media (min-width: 768px) {
+@media (min-width: 1031px) {
     .nav{
         max-height: none;
         top: 0;
@@ -147,10 +153,9 @@ ul{
     .hamb{
         display: none;
     }
-
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1030px) {
     .container {
         padding-top: 90px;
         padding-bottom: 90px;
