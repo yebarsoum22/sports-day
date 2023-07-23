@@ -30,6 +30,7 @@ p {
 ul{
     list-style: none;
     z-index: 2;
+    background-color: var(--black);
 }
 
 .header{
@@ -117,7 +118,6 @@ ul{
 /* Toggle menu icon */
 .side-menu:checked ~ nav{
     max-height: 100%;
-    background-color: var(—-black);
 }
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
