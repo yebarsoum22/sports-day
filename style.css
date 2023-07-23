@@ -117,11 +117,6 @@ ul{
 
 /* Toggle menu icon */
 
-.side-menu:checked ~ .container {
-  position:fixed;
-  overflow: hidden;
-}
-
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
 }
