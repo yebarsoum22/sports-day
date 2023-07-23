@@ -63,7 +63,7 @@ ul{
     position: fixed;
     background-color: var(--black);
     overflow: hidden;
-
+    z-index: 2
 }
 .menu a{
     display: block;
