@@ -13,10 +13,14 @@ body {
 }
 
 p, h1, h2, h3, strong {
-    padding: 20px;
+    padding: 15px;
     color: var(--white);
     justify-content: center;
     align-items: center;
+}
+
+.red {
+    color: red;
 }
 
 a {
