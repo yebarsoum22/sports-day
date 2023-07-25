@@ -148,7 +148,7 @@ ul{
 }
 
 /* Responsiveness */
-@media (min-width: 1031px) {
+@media (min-width: 1233px) {
     .nav{
         max-height: none;
         top: 0;
@@ -340,7 +340,7 @@ h1 {
   bottom: 50%;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1232px) {
     .container {
         padding-top: 90px;
         padding-bottom: 90px;
